@@ -1,0 +1,44 @@
+[STATION]
+Location=RIETI(Italy)
+User=Raffaello
+Latitude=42.168694
+Longitude=12.786056
+Locator=JN62JE
+Website=http://www.kwos.org
+web_current=http://www.kwos.org/weather/FEM_current.jpg
+[DataFile]
+PathDataFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\JN62JE_Raffaello.csv
+PathInfoFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\JN62JE_Raffaello.txt
+PathCurrentFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\FEM_current.jpg
+Path1hourFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\FEM_1hour.jpg
+Path4hourFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\FEM_4hour.jpg
+Path24hourFile=C:\Prova\02_METEO\E-Field Mill\Current Version\E-FieldMill\Data\FEM_24hour.jpg
+[FTP]
+ftpsite=ftp.test.com
+loginftp=test
+passftp=test
+remotepath=JN62JE_Raffaello_NO.csv
+remoteinfopath=JN62JE_Raffaello.txt
+secondsofftp=60
+[COMMFEM]
+PORT_FEM=COM5
+BAUDRATE_FEM=9600
+DATABIT_FEM=8
+PARITY_FEM=0
+# None=0 - Odd=1 - Even=2 - Mark=3 - Space=4
+ON_OFF=OFF
+# If this is OFF configure COMMFEM to talk with Boltek Hardware
+[COMMBOL]
+
+# None=0 - Odd=1 - Even=2 - Mark=3 - Space=4
+ON_OFF=OFF
+[SOCKET]
+PORT=8090
+ON_OFF=OFF
+[FILTERS]
+# If you leave all the values empty you can use 
+# the FILTER Menu in the software
+# Example:    OFFSET=-10,3  INVERTED=OFF   MEDIATED=ON
+OFFSET=
+INVERTED=
+MEDIATED=

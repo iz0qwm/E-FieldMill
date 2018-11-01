@@ -1,0 +1,8 @@
+RIETI(Italy)
+Raffaello
+42.168694
+12.786056
+JN62JE
+http://www.kwos.org
+http://www.kwos.org/weather/FEM_current.jpg
+Version 3.0
